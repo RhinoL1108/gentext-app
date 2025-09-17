@@ -1,0 +1,14 @@
+[project]
+name = "gentext-app"
+version = "0.1.0"
+description = "FastAPI app with bigram model and spaCy embedding"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "spacy",
+    "en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0.tar.gz"
+]
